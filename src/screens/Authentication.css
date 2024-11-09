@@ -1,0 +1,73 @@
+/* Authentication.css */
+
+/* Container styles */
+.auth-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styles */
+  .auth-container h3 {
+    font-size: 1.8em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Label styles */
+  .auth-form label {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  /* Input field styles */
+  .auth-form input[type="email"],
+  .auth-form input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  /* Button styles */
+  .auth-form button {
+    padding: 10px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Link styles */
+  .auth-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .auth-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .auth-link a:hover {
+    text-decoration: underline;
+  }
