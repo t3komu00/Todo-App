@@ -1,5 +1,5 @@
 
-/* Container styles */
+
 .auth-container {
     max-width: 400px;
     margin: 0 auto;
@@ -9,7 +9,7 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   
-  /* Header styles */
+  
   .auth-container h3 {
     font-size: 1.8em;
     color: #333;
@@ -17,20 +17,20 @@
     margin-bottom: 20px;
   }
   
-  /* Form styles */
+  
   .auth-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
   
-  /* Label styles */
+  
   .auth-form label {
     font-size: 1em;
     color: #555;
   }
   
-  /* Input field styles */
+  
   .auth-form input[type="email"],
   .auth-form input[type="password"] {
     padding: 10px;
@@ -40,7 +40,7 @@
     color: #333;
   }
   
-  /* Button styles */
+  
   .auth-form button {
     padding: 10px;
     font-size: 1.1em;
@@ -56,7 +56,7 @@
     background-color: #0056b3;
   }
   
-  /* Link styles */
+ 
   .auth-link {
     text-align: center;
     margin-top: 15px;

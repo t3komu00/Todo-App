@@ -44,9 +44,8 @@ const insertTestUser = async (email, password) => {
       hashedPassword,
     ]);
 
-    console.log("SUCCESSFULLY INSERTED USER", email);
   } catch (error) {
-    console.log("****Error****", error);
+   
     throw error; 
   }
 };
